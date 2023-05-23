@@ -1,0 +1,14 @@
+D:\Project VS\Practic1\Practic1Pav\Zad3\bin\Debug\Zad3.exe.config
+D:\Project VS\Practic1\Practic1Pav\Zad3\bin\Debug\Zad3.exe
+D:\Project VS\Practic1\Practic1Pav\Zad3\bin\Debug\Zad3.pdb
+D:\Project VS\Practic1\Practic1Pav\Zad3\obj\Debug\MainWindow.g.cs
+D:\Project VS\Practic1\Practic1Pav\Zad3\obj\Debug\App.g.cs
+D:\Project VS\Practic1\Practic1Pav\Zad3\obj\Debug\Zad3_MarkupCompile.cache
+D:\Project VS\Practic1\Practic1Pav\Zad3\obj\Debug\Zad3_MarkupCompile.lref
+D:\Project VS\Practic1\Practic1Pav\Zad3\obj\Debug\MainWindow.baml
+D:\Project VS\Practic1\Practic1Pav\Zad3\obj\Debug\Zad3.g.resources
+D:\Project VS\Practic1\Practic1Pav\Zad3\obj\Debug\Zad3.Properties.Resources.resources
+D:\Project VS\Practic1\Practic1Pav\Zad3\obj\Debug\Zad3.csproj.GenerateResource.cache
+D:\Project VS\Practic1\Practic1Pav\Zad3\obj\Debug\Zad3.csproj.CoreCompileInputs.cache
+D:\Project VS\Practic1\Practic1Pav\Zad3\obj\Debug\Zad3.exe
+D:\Project VS\Practic1\Practic1Pav\Zad3\obj\Debug\Zad3.pdb

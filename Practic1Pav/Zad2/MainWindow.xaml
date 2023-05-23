@@ -1,0 +1,33 @@
+﻿<Window x:Class="Practic1Pavishin.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practic1Pavishin"
+        mc:Ignorable="d"
+        Title="Window1" Background="Orange" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock HorizontalAlignment="Left" Margin="10,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="119" Width="386" Text="Координаты" FontSize="36" Grid.RowSpan="2"/>
+        <TextBox x:Name="vvod" Grid.Column="1" HorizontalAlignment="Left" Height="95" Margin="7,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" RenderTransformOrigin="0.5,0.5" TextChanged="TextBox_TextChanged" FontSize="36">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.365"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Button Content="Решить" HorizontalAlignment="Left" Height="73" Margin="23,17,0,0" Grid.Row="1" VerticalAlignment="Top" Width="272" Click="Button_Click" FontSize="48"/>
+        <TextBlock x:Name="otvet" Grid.Column="1" HorizontalAlignment="Left" Height="66" Margin="45,24,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="270" FontSize="22"><Run Text="Ответ"/><Run Text=":"/></TextBlock>
+    </Grid>
+</Window>

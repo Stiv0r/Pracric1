@@ -1,0 +1,15 @@
+D:\Project VS\Practic1\Practic1Pav\Practic1Pavishin\obj\Debug\Practic1Pavishin.csproj.AssemblyReference.cache
+D:\Project VS\Practic1\Practic1Pav\Practic1Pavishin\obj\Debug\MainWindow.g.cs
+D:\Project VS\Practic1\Practic1Pav\Practic1Pavishin\obj\Debug\App.g.cs
+D:\Project VS\Practic1\Practic1Pav\Practic1Pavishin\obj\Debug\Practic1Pavishin_MarkupCompile.cache
+D:\Project VS\Practic1\Practic1Pav\Practic1Pavishin\obj\Debug\Practic1Pavishin_MarkupCompile.lref
+D:\Project VS\Practic1\Practic1Pav\Practic1Pavishin\bin\Debug\Practic1Pavishin.exe.config
+D:\Project VS\Practic1\Practic1Pav\Practic1Pavishin\bin\Debug\Practic1Pavishin.exe
+D:\Project VS\Practic1\Practic1Pav\Practic1Pavishin\bin\Debug\Practic1Pavishin.pdb
+D:\Project VS\Practic1\Practic1Pav\Practic1Pavishin\obj\Debug\MainWindow.baml
+D:\Project VS\Practic1\Practic1Pav\Practic1Pavishin\obj\Debug\Practic1Pavishin.g.resources
+D:\Project VS\Practic1\Practic1Pav\Practic1Pavishin\obj\Debug\Practic1Pavishin.Properties.Resources.resources
+D:\Project VS\Practic1\Practic1Pav\Practic1Pavishin\obj\Debug\Practic1Pavishin.csproj.GenerateResource.cache
+D:\Project VS\Practic1\Practic1Pav\Practic1Pavishin\obj\Debug\Practic1Pavishin.csproj.CoreCompileInputs.cache
+D:\Project VS\Practic1\Practic1Pav\Practic1Pavishin\obj\Debug\Practic1Pavishin.exe
+D:\Project VS\Practic1\Practic1Pav\Practic1Pavishin\obj\Debug\Practic1Pavishin.pdb
