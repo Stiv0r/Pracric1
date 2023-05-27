@@ -7,27 +7,23 @@
         mc:Ignorable="d"
         Title="Window1" Background="Orange" Height="450" Width="800">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBlock HorizontalAlignment="Left" Margin="10,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="119" Width="386" Text="Координаты" FontSize="36" Grid.RowSpan="2"/>
-        <TextBox x:Name="vvod" Grid.Column="1" HorizontalAlignment="Left" Height="95" Margin="7,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" RenderTransformOrigin="0.5,0.5" TextChanged="TextBox_TextChanged" FontSize="36">
-            <TextBox.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="-0.365"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </TextBox.RenderTransform>
-        </TextBox>
-        <Button Content="Решить" HorizontalAlignment="Left" Height="73" Margin="23,17,0,0" Grid.Row="1" VerticalAlignment="Top" Width="272" Click="Button_Click" FontSize="48"/>
-        <TextBlock x:Name="otvet" Grid.Column="1" HorizontalAlignment="Left" Height="66" Margin="45,24,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="270" FontSize="22"><Run Text="Ответ"/><Run Text=":"/></TextBlock>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Координаты первой точки (x1, y1)" Grid.Row="0" Grid.Column="0" Margin="5"/>
+        <TextBox x:Name="x1TextBox" Text="" Grid.Row="0" Grid.Column="1" Margin="5,5,326,5"/>
+        <TextBox x:Name="y1TextBox" Text="" Grid.Column="1" Margin="275,5,56,5"/>
+        <Label Content="Координаты второй точки (x2, y2)" Grid.Row="2" Grid.Column="0" Margin="5"/>
+        <TextBox x:Name="x2TextBox" Text="" Grid.Row="2" Margin="5,0,326,10" Grid.Column="1"/>
+        <TextBox x:Name="y2TextBox" Text="" Grid.Row="2" Grid.Column="1" Margin="275,0,56,10"/>
+        <Button Content="Найти расстояние" Click="Button_Click" Grid.Row="3" Margin="300,226,5,5" Grid.Column="1"/>
+        <Label x:Name="resultLabel" Content="Ответ:" Grid.Row="3" Margin="10,10,5,178" Grid.Column="1" FontSize="18"/>
     </Grid>
 </Window>

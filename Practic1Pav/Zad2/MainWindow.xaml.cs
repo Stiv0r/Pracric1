@@ -32,15 +32,14 @@ namespace Practic1Pavishin
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            int a = int.Parse(vvod.Text);
-            double x1 = 1.0;
-            double y1 = 2.0;
-            double x2 = 4.0;
-            double y2 = 6.0;
+            double x1 = double.Parse(x1TextBox.Text);
+            double y1 = double.Parse(y1TextBox.Text);
+            double x2 = double.Parse(x2TextBox.Text);
+            double y2 = double.Parse(y2TextBox.Text);
 
-            double distance = Sqrt(Pow(x2 - x1, 2) + Pow(y2 - y1, 2));
+            double distance = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
 
-            otvet.Text = ("Расстояние между точками: " + distance);
+            resultLabel.Content = $"Расстояние между точками ({x1},{y1}) и ({x2},{y2}) равно {distance}";
         }
     }
 }
